@@ -1,0 +1,43 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.cardContainer:hover{
+    transform: scale(1.1);
+}
+.imageContainer img{
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #154c79;
+    margin-bottom: 15px;
+}
+.description{
+    font-size: 15px;
+    color: rgb(86, 84, 84);
+    margin-bottom: 15px;
+}
+.link{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.link span{
+    font-size: 14px;
+    color: #513ef7;
+    font-weight: 600;
+}
+.link svg{
+    height: 1rem;
+    width: 1rem;
+    color: #513ef7;
+}
