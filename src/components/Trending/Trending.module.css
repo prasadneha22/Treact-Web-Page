@@ -1,0 +1,113 @@
+.mainContainer{
+    margin: 20px 6%;
+    display: flex;
+    gap: 8%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 450px;
+}
+.heading h1{
+    font-size: 3rem;
+   
+    font-weight: 800;
+   color: #0f3555;
+}
+.heading p{
+    font-size: 1.25rem;
+    color: gray;
+    line-height: 30px;
+}
+.view{
+    display: flex;
+    gap: 5px;
+    color: #621deb;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 2px transparent;
+    padding-bottom: 5px;
+    width: 165px;
+}
+.view:hover{
+    border-bottom: 2px solid rgb(67, 25, 165);
+    color: rgb(67, 25, 165);
+}
+.card{
+   display: flex;
+   gap: 96px;
+   
+}
+.cardContainer{
+    width: 330px;
+    border-radius: 4px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cardContainer img{
+    height: 330px;
+    width: 100%;
+   border-radius: 4px;
+}
+.firstLine{
+    display: flex;
+    justify-content: space-between;
+}
+.firstLine h3{
+    color: #621deb;
+    font-weight: 700;
+}
+.firstLine h4{
+    font-size: 20px;
+    color: rgb(51, 49, 49);
+    
+    display: flex;
+    align-items: center;
+    
+}
+.firstLine h4 span{
+    font-size: 14px;
+    padding-left: 5px;
+    color: rgb(151, 150, 150);
+}
+.description{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0f3555;
+    line-height: 30px;
+}
+.lastContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+ .icons span{
+    padding-left: 5px;
+    color:#557087 ;
+    font-size: 12px;
+    font-weight: 700;
+}
+.bookNow{
+    background-color: #621deb;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 50px;
+    padding-top: 14px;
+    border-radius: 4px;
+}

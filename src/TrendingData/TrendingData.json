@@ -1,0 +1,20 @@
+{
+    "cardDetails" : [
+        {
+            "img" : "https://images.unsplash.com/photo-1553194587-b010d08c6c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
+            "title" : "Beachfront",
+            "price" : "99",
+            "des" :"A Trip to the Bahamas and the Carribean Ocean",
+            "tour":"7 DAYS TOUR",
+            "country" :"AFRICA"
+        },
+        {
+            "img" : "https://images.unsplash.com/photo-1584200186925-87fa8f93be9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
+            "title" : "Cruise",
+            "price" : "169",
+            "des" :"Cruise to the Mariana Trench and the Phillipines",
+            "tour":"15 DAYS TOUR",
+            "country" :"AUSTRALIA"
+        }
+    ]
+}

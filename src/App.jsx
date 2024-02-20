@@ -3,6 +3,9 @@ import CustomCards from './components/CustomCards/CustomCards'
 import MainPage from './components/MainPage/MainPage'
 import CarouselCard from './components/CarouselCard/CarouselCard'
 import {slides} from './CarouselData/Data.json'
+import Trending from './components/Trending/Trending'
+import {cardDetails} from './TrendingData/TrendingData.json'
+import Service from './components/Service/Service'
 
 
 const App = () => {
@@ -17,6 +20,8 @@ const App = () => {
       <CustomCards icon="https://treact.owaiskhan.me/static/media/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" title="Customizable" des="Lorem ipsum dolor sit amet, consectetur adipisicing elit."/>
       </div>
       <CarouselCard data = {slides}/>
+      <Trending datas = {cardDetails}/>
+      <Service/>
       </div>
     
   )
