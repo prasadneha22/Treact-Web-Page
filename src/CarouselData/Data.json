@@ -1,0 +1,32 @@
+{
+    "slides" :[
+        {
+            "src" :"https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
+            "title":"Wyatt Residencey",
+            "rating":"4.8",
+            "place":"Rome, Itly",
+            "usd" :"USD 39/Day"
+        },
+        {
+            "src" :"https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
+            "title":"Soho Paradise",
+            "rating":"4.9",
+            "place":"Ibiza, Spain",
+            "usd" :"USD 50/Day"
+        },
+        {
+            "src" :"https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
+            "title":"Hotel Baja",
+            "rating":"5.0",
+            "place":"Palo Alto, CA",
+            "usd" :"USD 19/Day"
+        },
+        {
+            "src" :"https://images.unsplash.com/photo-1571770095004-6b61b1cf308a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
+            "title":"Hudak Homes",
+            "rating":"4.5",
+            "place":"Arizona, RAK",
+            "usd" :"USD 99/Day"
+        }
+    ]
+}

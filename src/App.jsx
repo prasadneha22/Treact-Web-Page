@@ -2,6 +2,7 @@ import React from 'react'
 import CustomCards from './components/CustomCards/CustomCards'
 import MainPage from './components/MainPage/MainPage'
 import CarouselCard from './components/CarouselCard/CarouselCard'
+import {slides} from './CarouselData/Data.json'
 
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
       <CustomCards icon = "https://treact.owaiskhan.me/static/media/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" title="24/7 Support" des="Lorem ipsum dolor sit amet, consectetur adipisicing elit."/>
       <CustomCards icon="https://treact.owaiskhan.me/static/media/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" title="Customizable" des="Lorem ipsum dolor sit amet, consectetur adipisicing elit."/>
       </div>
-      <CarouselCard/>
+      <CarouselCard data = {slides}/>
       </div>
     
   )
