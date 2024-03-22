@@ -1,0 +1,89 @@
+.mainContainer{
+    margin-left: 85px;
+    margin-top: 150px;
+    
+    display: flex;
+    gap: 70px;
+}
+
+.topPart{
+    
+    width: 670px;
+    height: 193px;
+    margin-bottom: 40px;
+   
+  
+}
+.topPart h1{
+    font-size: 3rem;
+    color: #0f3555;
+    
+}
+.topPart p{
+    font-size: 17px;
+    line-height: 28px;
+    color: #8296a5;
+    font-weight: 500;
+}
+.bottomPart{
+    width: 675px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.bottomPart p{
+    font-size: 22px;
+    color: #225680;
+}
+.rightPart{
+    width: 448px;
+    height: 558px;
+    position: relative;
+}
+.rightPart img{
+    height: 582.4px;
+   width: 550px;
+   border-radius: 6px;
+}
+.profile{
+    display: flex;
+    gap: 30px;
+    
+    align-items: center;
+}
+.profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.profileSection h2{
+    font-size: 30px;
+    font-weight: 500;
+    color:#6d18db ;
+}
+.profileSection p{
+    font-size: 16px;
+    color: #8296a5;
+    font-weight: 500;
+}
+.arrow{
+    display: flex;
+    position: absolute;
+    width: 178px;
+    height: 75px;
+    background-color: white;
+    bottom: -24px;
+    right: -103px;
+    border-top-left-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.arrow button{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    background-color: #8c1ee6;
+    color: white;
+}

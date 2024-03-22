@@ -1,0 +1,145 @@
+.footerContainer{
+    margin-top: 90px;
+  
+}
+.news{
+    height: 265px;
+    background-color: rgb(11, 30, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    
+}
+
+.newsLetter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.news svg{
+    height: 64px;
+    width: 64px;
+    color: rgb(110, 182, 116);
+}
+.texts h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    line-height: 50px;
+   letter-spacing: 1.7px;
+}
+.texts p{
+    color: rgb(128, 158, 174);
+    font-size: 14px;
+}
+
+form input{
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    font-size: 15px;
+    width: 244.8px;
+    height: 54.6px;
+    padding: 16px 25px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(32 56 89 );
+    transition: 0.1s ease-in-out;
+    color: white;
+    outline: none;
+   
+}
+form input:hover{
+    background-color: rgb(31, 60, 100);
+    transition: 0.2s ease-in-out;
+}
+::placeholder{
+    color: rgb(213, 230, 250);
+}
+form input:focus{
+    outline: none;
+    border:  1px solid rgb(63, 90, 128);
+}
+form button{
+    height: 54.6px;
+    width: 169.1px;
+   border-top-right-radius: 0.25rem;
+   border-bottom-right-radius: 0.25rem;
+    border: none;
+    outline: none;
+    background-color: rgb(37, 199, 105);
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(35, 104, 64);
+    transition: 0.2s ease-in-out;
+}
+.otherInfo{
+    height: 425px;
+    background-color: rgb(26 32 44 );
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 32px;
+    width: 32px;
+}
+.logo span{
+    width: 85px;
+    height:36px ;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.list {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: center;
+}
+
+.item {
+    cursor: pointer;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    border-bottom: 1.7px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+.item:hover{
+    border-bottom: 1.7px solid white;
+    transition: 0.2s ease-in-out;
+}
+.socialIcons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+.watermark{
+    font-size: 14px;
+    color: rgb(113 128 150);
+    font-weight: 400;
+    text-align: center;
+}
+.icons:hover{
+ color: gray;
+}

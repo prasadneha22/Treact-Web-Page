@@ -1,0 +1,25 @@
+.mainContainer{
+    margin-top: 200px;
+    margin-left: 80px;
+    display: flex;
+    gap: 60px;
+}
+.Image img{
+    height: 576px;
+    width: 502px;
+}
+.content h1{
+    font-size: 3rem;
+    color: #0f3555;
+}
+.content p{
+    margin-top: 25px;
+    font-size: 18px;
+    width: 702.8px;
+    line-height: 30px;
+    color: #848f97;
+    font-weight: 500;
+}
+.accordianContainer{
+    margin-top: 40px;
+}

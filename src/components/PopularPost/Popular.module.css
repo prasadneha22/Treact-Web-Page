@@ -1,0 +1,110 @@
+.popularPosts{
+    width: 856px;
+    height: 1200px;
+    margin-left: 78px;
+}
+.popularHeading ,.recentHead{
+    font-size: 3rem;
+    color: #0f3555;
+    margin-bottom: 4rem;
+}
+.cardConatiner{
+    height: 504px;
+    width: 368px;
+    
+}
+.imgHeading{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 368.8px;
+    margin-bottom: 15px;
+    color: #0f3555;
+    
+}
+.imgHeading:hover{
+    color: blueviolet;
+    
+}
+.cardImage{
+    height: 256px;
+    width: 370px;
+    transition: transform 0.2s;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.cardImage:hover{
+    transform: scale(1.02);
+}
+.subHeading{
+    font-size: 19px;
+    font-weight: 700;
+}
+.firstPart{
+    display: flex;
+    gap: 32px;
+}
+.secH{
+    line-height: 28px;
+    color: #8a8787;
+    font-weight: 500;
+    font-size: 0.8rem;
+    width: 370px;
+    padding-bottom: 25px;
+}
+.profile{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.info p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f3555;
+}
+.info span{
+    font-size: 14px;
+    color: #8a8787;
+}
+.top{
+    display: flex;
+    padding-bottom: 96px;
+    height: 702px;
+    
+}
+   
+
+.photos img{
+    height: 80px;
+    width: 80px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 35px;
+    width: 450px;
+    height: 80px;
+    cursor: pointer;
+}
+.text h3{
+    color: #0f3555;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.text h3:hover{
+    color: rgb(31, 20, 190);
+}
+.text p{
+    font-size: 14px;
+    color: #8a8787;
+}

@@ -1,0 +1,60 @@
+
+.container {
+   
+    padding-top: 24px; /* Adjust as needed */
+  }
+  
+  .button {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #3a4e6c;
+
+}
+  .gridContainer {
+    display: grid;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    color: #718096; 
+    font-size: 0.875rem; 
+  }
+  
+  .gridOpen {
+    grid-template-rows: 1fr;
+    opacity: 1;
+  }
+  
+  .gridClosed {
+    grid-template-rows: 0fr;
+    opacity: 0;
+  }
+  .answer {
+    display: block;
+    width: 700px;
+    font-size: 15px;
+    color: rgb(69, 66, 66);
+    font-weight: 300;
+    padding-top: 10px;
+    line-height: 30px;
+  
+  }
+  
+  .answerHidden {
+    display: none;
+  }
+  .icons{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(103, 47, 234);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+  }

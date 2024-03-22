@@ -6,9 +6,15 @@ import {slides} from './CarouselData/Data.json'
 import Trending from './components/Trending/Trending'
 import {cardDetails} from './TrendingData/TrendingData.json'
 import Service from './components/Service/Service'
-
+import PopularPost from './components/PopularPost/PopularPost'
+// import {posts} from './Popular/PopularData.json'
+// import {recentList} from './Popular/PopularData.json'
+import Testimonials from './components/Testimonials/Testimonials'
+import Question from './components/Question/Question'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
+  // console.log(recentList);
   return (
     <div>
       <MainPage/>
@@ -22,6 +28,11 @@ const App = () => {
       <CarouselCard data = {slides}/>
       <Trending datas = {cardDetails}/>
       <Service/>
+      <PopularPost />
+      <Testimonials/>
+      <Question/>
+      <Footer/>
+      
       </div>
     
   )

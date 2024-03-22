@@ -1,0 +1,48 @@
+{
+    "posts":[
+        {
+            "img":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80",
+            "text":"Tips on how to travel safely in foreign countries",
+            "para":"Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.",
+            "profilePic":"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+            "name":"Charlotee Delos",
+            "prof":"Travel Advocate"
+        },
+        {
+            "img":"https://images.unsplash.com/photo-1563784462041-5f97ac9523dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80",
+            "text":"Enjoying the beach life while on a vacation",
+            "para":"Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.",
+            "profilePic":"https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+            "name":"Adam Cuppy",
+            "prof":"Vlogger"
+        }
+    ],
+    
+    "recentList" :[
+        {
+            "desc":"Getting the most out of your vacation",
+            "nam":"Aaron Patterson",
+            "photo":"https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80"
+        },
+        {
+            "desc":"Choosing the perfect safaris in Africa",
+            "nam":"Sam Phipphen",
+            "photo":"https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80"
+        },
+        {
+            "desc":"Hiking during the monsoon in Asia",
+            "nam":"tony Hawk",
+            "photo":"https://images.unsplash.com/photo-1546971587-02375cbbdade?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=641&q=80"
+        },
+        {
+            "desc":"Must Carry items while travelling to Thailand",
+            "nam":"Himali Turn",
+            "photo":"https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80"
+        },
+        {
+            "desc":"An extremly funny trip to the Swiss Alps",
+            "nam":"Naomi Watts",
+            "photo":"https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80"
+        }
+    ]
+}
